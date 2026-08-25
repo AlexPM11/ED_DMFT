@@ -24,3 +24,4 @@ pip install -e .
 
 # Test it works
 python -c "import ed_solver; print('✅ Installation successful!')"
+# ED_DMFT
