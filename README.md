@@ -9,7 +9,7 @@ Copy and paste these commands one by one:
 ```bash
 git clone https://github.com/AlexPM11/ED_DMFT.git
 
-cd ed_solver
+cd ED_DMFT
 
 python -m venv venv_dmft
 
