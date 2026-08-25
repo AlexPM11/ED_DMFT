@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "scikit-build-core>=0.10",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "ed_solver"
+version = "0.1.0"
+description = "Exact diagonalization solver for the Anderson impurity model"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Rubtsov Alexey" },
+    { name = "Belov Alexander" }
+]
+
+[tool.scikit-build]
+cmake.version = ">=3.15"
