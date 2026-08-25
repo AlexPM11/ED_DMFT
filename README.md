@@ -7,7 +7,7 @@ Press `` Ctrl+` `` (backtick) to open the integrated terminal.
 Copy and paste these commands one by one:
 
 ```bash
-git clone https://gitlab.com/mullerthomas2528/ed_dmft.git
+git clone https://github.com/AlexPM11/ED_DMFT.git
 
 cd ed_solver
 
@@ -15,7 +15,7 @@ python -m venv venv_dmft
 
 # Activate it (choose one based on your OS)
 # macOS/Linux:
-source venv/bin/activate
+source venv_dmft/bin/activate
 # Windows:
 venv_dmft\Scripts\activate.bat
 
