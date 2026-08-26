@@ -21,7 +21,9 @@ venv_dmft\Scripts\activate.bat
 
 # Install ed_solver
 pip install -e .
+```
+### 3. Check that all is worked
+create file temp.py
+write import ed_solver
+write print(ed_solver)
 
-# Test it works
-python -c "import ed_solver; print('✅ Installation successful!')"
-# ED_DMFT
