@@ -23,7 +23,7 @@ venv_dmft\Scripts\activate.bat
 pip install -e .
 ```
 ### 3. Check that all is worked
-create file temp.py
+Create file temp.py in the folder ed_solver.
 
 ```bash
 import ed_solver
