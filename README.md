@@ -24,6 +24,9 @@ pip install -e .
 ```
 ### 3. Check that all is worked
 create file temp.py
-write import ed_solver
-write print(ed_solver)
+
+```bash
+import ed_solver
+
+print(ed_solver)
 
