@@ -29,4 +29,15 @@ Create file temp.py in the folder ed_solver.
 import ed_solver
 
 print(ed_solver)
+```
+
+### 4. Install analytical continuation package ana_cont
+
+```bash
+sudo apt install python3-dev
+
+python3 -m pip install -U pyqt5 matplotlib wheel cython h5py scipy
+
+python -m pip install --no-build-isolation ana-cont
+```
 
